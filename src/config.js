@@ -4,16 +4,16 @@ module.exports = {
     "Nnadi is a Software Developer, based in Nigeria, who loves learning new things and helping tech beginners.",
   siteKeywords:
     "Nnadi, javascript, blockchain, fullstack developer, react.js, next.js, typescript, php, laravel, javascript, gatsby",
-  siteUrl: "https://github.com/Chimennadi",
+  siteUrl: "https://github.com/nnadii",
   siteLanguage: "en_US",
   name: "Nnadi",
-  email: "chimennadi66@gmail.com",
-  github: "https://github.com/Chimennadi",
+  email: "nnadichime04@gmail.com",
+  github: "https://github.com/nnadii",
   twitterHandle: "@beekyhe",
   socialMedia: [
     {
       name: "GitHub",
-      url: "https://github.com/Chimennadi",
+      url: "https://github.com/nnadii",
     },
     {
       name: "Linkedin",
