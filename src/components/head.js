@@ -62,12 +62,7 @@ const Head = ({ metadata }) => (
     <link rel="apple-touch-icon" sizes="144x144" href={appleIcon144x144} />
     <link rel="apple-touch-icon" sizes="152x152" href={appleIcon152x152} />
     <link rel="apple-touch-icon" sizes="180x180" href={appleIcon180x180} />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href={androidIcon192x192}
-    />
+    <link rel="icon" type="image/png" sizes="192x192" href={androidIcon192x192} />
     <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32} />
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96} />
     <link rel="icon" type="image/png" sizes="16x16" href={favicon16x16} />
