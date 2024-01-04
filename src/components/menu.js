@@ -84,36 +84,21 @@ const Menu = ({ menuOpen, toggleMenu }) => {
   const handleMenuClick = e => {
     const target = e.target
     const isLink = target.hasAttribute("href")
-    const isNotMenu =
-      target.classList && target.classList[0].includes("StyledContainer")
+    const isNotMenu = target.classList && target.classList[0].includes("StyledContainer")
 
-    if (isLink || isNotMenu) {
-      toggleMenu()
-    }
+    if (isLink || isNotMenu) toggleMenu()
   }
 
   return (
-    <StyledContainer
-      menuOpen={menuOpen}
-      onClick={handleMenuClick}
-      aria-hidden={!menuOpen}
-      tabIndex={menuOpen ? 1 : -1}
-    >
+    <StyledContainer menuOpen={menuOpen} onClick={handleMenuClick} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1} >
       <Sidebar>
         <NavLinks>
           <NavList>
-            {navLinks &&
-              navLinks.map(({ url, name }, i) => (
-                <NavListItem key={i}>
-                  <NavLink to={url}>{name}</NavLink>
-                </NavListItem>
-              ))}
+            {navLinks && navLinks.map(({ url, name }, i) => (
+              <NavListItem key={i}><NavLink to={url}>{name}</NavLink></NavListItem>
+            ))}
           </NavList>
-          <ResumeLink
-            href="https://drive.google.com/file/d/15TvQTaH5bCFQAMuLhiD0ILHbXD6-0wdN/view?usp=sharing"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-          >
+          <ResumeLink href="https://drive.google.com/file/d/15TvQTaH5bCFQAMuLhiD0ILHbXD6-0wdN/view?usp=sharing" target="_blank" rel="nofollow noopener noreferrer" >
             Resume
           </ResumeLink>
         </NavLinks>
