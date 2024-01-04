@@ -1,15 +1,16 @@
 ---
 date: "1"
-title: "Budget App"
+title: "Budget JS"
 cover: "screenshot.png"
-github: "https://github.com/Chimennadi/budget"
-external: "chimennadi.github.io/budget/"
+github: "https://github.com/nnadii/budget_js"
+external: "https://nnadii.github.io/budget_js/"
 tech:
-  - JavaScript
-  - HTML5
-  - CSS
-  - OOP-Principles
-  - Gh-Pages
+  - javascript
+  - html
+  - css
+  - OOP-principles
+  - gh-pages
+  - webfonts
 showInProjects: true
 ---
 
