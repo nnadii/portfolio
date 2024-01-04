@@ -52,9 +52,8 @@ const Layout = ({ children, location }) => {
   const [isLoading, setIsLoading] = useState(isHome)
 
   useEffect(() => {
-    if (isLoading) {
-      return
-    }
+    if (isLoading) return
+    
     if (location.hash) {
       const id = location.hash.substring(1) // location.hash without the '#'
       setTimeout(() => {
@@ -96,10 +95,7 @@ const Layout = ({ children, location }) => {
               <Social isHome={isHome} />
               <Email isHome={isHome} />
 
-              <div id="content">
-                {children}
-                <Footer />
-              </div>
+              <div id="content"> {children} <Footer /></div>
             </StyledContent>
           )}
         </div>
