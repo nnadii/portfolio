@@ -2,15 +2,15 @@
 date: "2"
 title: "Messenger App"
 cover: "screenshot.png"
-github: "https://github.com/Chimennadi/messenger"
-external: "https://messenger-chimennadi.vercel.app"
+github: "https://github.com/nnadii/messenger"
+external: "https://messenger-liard.vercel.app"
 tech:
-  - Prisma
-  - Nextjs@14.0.3
-  - React
+  - prisma
+  - nextjs@14.0.3
+  - reactjs
   - tailwindCSS
-  - Typescript
-  - MongoDB
+  - typescript
+  - mongoDB
 showInProjects: true
 ---
 
