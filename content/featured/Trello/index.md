@@ -2,8 +2,8 @@
 date: "4"
 title: "Trello Clone"
 cover: "screenshot.png"
-github: "https://github.com/Chimennadi/trello"
-external: "https://chimennadi.github.io/trello/"
+github: "https://github.com/nnadii/trello"
+external: "https://nnadii.github.io/trello/"
 tech:
   - React.js
   - JavaScript
