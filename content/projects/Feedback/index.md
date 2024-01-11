@@ -2,8 +2,9 @@
 date: "4"
 title: "Review"
 cover: "screenshot.png"
-github: "https://github.com/Chimennadi/review_app"
-external: "https://nnadireview.netlify.app"
+github: "https://github.com/nnadii/feedback"
+external: "https://feedbackreview.vercel.app/"
+company: "Feedback"
 tech:
   - React.js
   - JSON
